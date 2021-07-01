@@ -7,6 +7,7 @@
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
+    "test": "jest",
     "check-types": "tsc --noEmit",
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint src/**/*.ts",
@@ -28,6 +29,7 @@
     "jest": "^27.0.6",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
